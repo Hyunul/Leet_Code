@@ -5,11 +5,10 @@ class Solution(object):
         :rtype: int
         """
         result = []
-        temp = 0
+
         for i in range(len(accounts)):
+            temp = 0
             for j in range(len(accounts[i])):
                 temp += accounts[i][j]
             result.append(temp)
-            temp = 0
-        print(result)
-        # return max(result)
+        return max(result)
