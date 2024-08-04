@@ -9,7 +9,7 @@ class Solution(object):
             else:
                 y.append(nums[i])
 
-        for j in range(len(nums)):
+        for j in range(n):
             result.append(x[j])
             result.append(y[j])
         
