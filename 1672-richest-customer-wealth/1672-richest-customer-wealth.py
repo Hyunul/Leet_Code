@@ -9,7 +9,7 @@ class Solution(object):
         for i in range(len(accounts)):
             for j in range(len(accounts[i])):
                 temp += accounts[i][j]
-            temp = 0
             result.append(temp)
+            temp = 0
         print(result)
         # return max(result)
